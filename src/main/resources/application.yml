@@ -1,0 +1,38 @@
+spring.profiles.active: dev
+
+spring:
+    application:
+        name: trueaccord.solution
+
+logging:
+    level:
+        ROOT: INFO
+        com.trueaccord.solution: DEBUG
+
+---
+
+spring:
+    profiles: qa
+
+logging:
+    level:
+        ROOT: INFO
+        com.trueaccord.solution: INFO
+
+---
+
+spring:
+    profiles: stage
+
+logging:
+    level:
+        com.trueaccord.solution: ERROR
+
+---
+
+spring:
+    profiles: production
+
+logging:
+    level:
+        com.trueaccord.solution: ERROR

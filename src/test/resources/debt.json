@@ -1,0 +1,118 @@
+[
+  {
+    "id": 0,
+    "amount": 123.46,
+    "is_in_payment_plan": true,
+    "remaining_amount": 0,
+    "next_payment_due_date": null,
+    "paymentPlan": {
+      "id": 0,
+      "payments": [
+        {
+          "amount": 51.25,
+          "date": "2020-09-29",
+          "payment_plan_id": 0
+        },
+        {
+          "amount": 51.25,
+          "date": "2020-10-29",
+          "payment_plan_id": 0
+        }
+      ],
+      "amount_to_pay": 102.5,
+      "debt_id": 0,
+      "installment_amount": 51.25,
+      "installment_frequency": "WEEKLY",
+      "start_date": "2020-09-28"
+    }
+  },
+  {
+    "id": 1,
+    "amount": 100,
+    "is_in_payment_plan": true,
+    "remaining_amount": 50,
+    "next_payment_due_date": "2020-08-15",
+    "paymentPlan": {
+      "id": 1,
+      "payments": [
+        {
+          "amount": 25,
+          "date": "2020-08-08",
+          "payment_plan_id": 1
+        },
+        {
+          "amount": 25,
+          "date": "2020-08-08",
+          "payment_plan_id": 1
+        }
+      ],
+      "amount_to_pay": 100,
+      "debt_id": 1,
+      "installment_amount": 25,
+      "installment_frequency": "WEEKLY",
+      "start_date": "2020-08-01"
+    }
+  },
+  {
+    "id": 2,
+    "amount": 4920.34,
+    "is_in_payment_plan": true,
+    "remaining_amount": 607.67,
+    "next_payment_due_date": "2020-08-22",
+    "paymentPlan": {
+      "id": 2,
+      "payments": [
+        {
+          "amount": 4312.67,
+          "date": "2020-08-08",
+          "payment_plan_id": 2
+        }
+      ],
+      "amount_to_pay": 4920.34,
+      "debt_id": 2,
+      "installment_amount": 1230.085,
+      "installment_frequency": "BI_WEEKLY",
+      "start_date": "2020-01-01"
+    }
+  },
+  {
+    "id": 3,
+    "amount": 12938,
+    "is_in_payment_plan": true,
+    "remaining_amount": 622.415,
+    "next_payment_due_date": "2020-08-22",
+    "paymentPlan": {
+      "id": 3,
+      "payments": [
+        {
+          "amount": 1230.085,
+          "date": "2020-08-01",
+          "payment_plan_id": 3
+        },
+        {
+          "amount": 1230.085,
+          "date": "2020-08-08",
+          "payment_plan_id": 3
+        },
+        {
+          "amount": 1230.085,
+          "date": "2020-08-15",
+          "payment_plan_id": 3
+        }
+      ],
+      "amount_to_pay": 4312.67,
+      "debt_id": 3,
+      "installment_amount": 1230.085,
+      "installment_frequency": "WEEKLY",
+      "start_date": "2020-08-01"
+    }
+  },
+  {
+    "id": 4,
+    "amount": 9238.02,
+    "is_in_payment_plan": false,
+    "remaining_amount": 9238.02,
+    "next_payment_due_date": null,
+    "paymentPlan": null
+  }
+]
